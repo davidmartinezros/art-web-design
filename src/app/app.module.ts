@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { RoutingModule } from './app.routing.module';
 
 @NgModule({
   declarations: [
@@ -10,6 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     NavbarComponent
   ],
   imports: [
+    RoutingModule,
     BrowserModule
   ],
   providers: [],
