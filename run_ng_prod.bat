@@ -1,0 +1,1 @@
+ng build --base-href https://davidmartinezros.com/Angular7/art-web-design/ --prod
