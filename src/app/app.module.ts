@@ -12,6 +12,8 @@ import { Page4Component } from './pages/page4/page4.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { DefaultComponent } from './pages/default/default.component';
+import { MenuListItemComponent } from './menu-list-item/menu-list-item.component';
+import { NavService } from './nav.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { DefaultComponent } from './pages/default/default.component';
     Page2Component,
     Page3Component,
     Page4Component,
-    DefaultComponent
+    DefaultComponent,
+    MenuListItemComponent
   ],
   imports: [
     RoutingModule,
@@ -30,7 +33,7 @@ import { DefaultComponent } from './pages/default/default.component';
     BrowserAnimationsModule,
     MaterialModule
   ],
-  providers: [],
+  providers: [NavService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

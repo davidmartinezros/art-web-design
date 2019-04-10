@@ -17,6 +17,10 @@ const appRoutes: Routes = [
     component: DefaultComponent
   },
   {
+    path: 'devfestfl/speakers/michael-prentice/material-design',
+    component: Page1Component
+  },
+  {
     path: 'page1',
     component: Page1Component
   },

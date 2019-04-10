@@ -5,3 +5,39 @@
     left: 0;
     right: 0;
   }
+/*
+.mat-subheader {
+  height:30px !important;
+  font-size: 15px;
+}
+
+.mat-expansion-panel-header {
+  height:30px  !important;
+  padding-left: 10px;
+}
+
+.mat-expansion-panel-body, .mat-expansion-panel, .mat-expansion-panel-content {
+  padding-left: 0px !important;
+}
+
+.mat-nav-list {
+  background-color: red;
+}
+
+.mat-expansion-panel {
+  background-color: orange;
+}
+
+.mat-list-item {
+  padding: 0 0px 0px !important;
+}
+.mat-list-item-content {
+  padding-left: 0px !important;
+}
+
+.mat-list-item {
+  height:20px  !important;
+  padding-left: 0px !important;
+  font-size: 12px;
+}
+*/
